@@ -8,6 +8,7 @@ export class ValuesController extends BaseController {
       .get('', this.getAll)
       .post('', this.create)
       .delete('/:valueId', this.remove)
+      // api/burgers/123212233
   }
 
   /**
